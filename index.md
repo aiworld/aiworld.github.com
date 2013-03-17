@@ -15,3 +15,5 @@ That is, to openly and safely create the first greater than human intelligence w
 The thinking behind this approach is to create machine intelligence in the same way that human intelligence is created - that is by **looking** and **listening**.
 This is in hopes of bringing the builders of artificial intelligence algorithms together with the data and human-supervision those algorithms need.
 In addition, putting the millions of hours gamers devote to saving princessi and slaying dragonz to use doing something that attempts to be the most important thing that anyone could possibly be doing in the entire world.
+
+[</>](http://aiworld.github.com/)

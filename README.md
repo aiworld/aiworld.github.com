@@ -1,1 +1,1 @@
-Ran via http://github.com/mojombo/jekyll
+Via http://github.com/mojombo/jekyll

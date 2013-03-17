@@ -13,7 +13,12 @@ It has a lofty goal to go along with its playful approach.
 That is, to openly and safely create the first greater than human intelligence within a game that is - surprisingly - wait for it - YES - really and actually fun to play.
 
 The thinking behind this approach is to create machine intelligence in the same way that human intelligence is created - that is by **looking** and **listening**.
-This is in hopes of bringing the builders of artificial intelligence algorithms together with the data and human-supervision those algorithms need.
+This is in hopes of bringing the builders of artificial intelligence algorithms together with the data and human-supervision they need.
 In addition, putting the millions of hours gamers devote to saving princessi and slaying dragonz to use doing something that attempts to be the most important thing that anyone could possibly be doing in the entire world.
 
-[</>](http://aiworld.github.com/)
+<a class="github-link" href="http://github.com/aiworld/aiworld.github.com">
+  <img class="github-image" src="images/github-logo.png" alt="Github">
+</a>
+<a class="github-link" href="http://github.com/aiworld/aiworld.github.com">
+  source
+</a>

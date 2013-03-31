@@ -1,18 +1,21 @@
 ---
 layout: default
-title: aiworld bits
+title: bits
 ---
 
-Bits - getting down to details
-==============================
+Bits - getting down to the dirty details
+---------------------------------------------------
 
+### Platform
 Player's machine running Unity game
                  |
-                 |(multiplayer stream)
+                 |(multiplayer stream pipe)
                  |
                  |-> Brain machine with the same game and different cameras
                      Cameras get screen captured and sent to brain process.
-                     Brain process just takes a h.264 stream and sends back some actions,
-                       so it can be written in any language, YAY!!!
+                     Since brain process just takes a h.264 stream and sends back some actions,
+                       it can be written in any language, YAY!!!
+
+
 
 

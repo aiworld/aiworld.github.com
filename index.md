@@ -23,21 +23,29 @@ All the while putting the millions of hours gamers devote to saving princessi an
 <img style="border: solid 2px black;" class="space-for-brain" src="images/space-for-brain.jpg" alt="Space for brain">
 
 Within 20 years, the raw processing power and memory capacity needed to match a human will be available for around $100.
-Right now, there are already machines which posses the raw power of a human, like ONRL&#39;s Titan supercomputer.
-Barring catastrophe, it is a foregone conclusion that the human brain will not be the peak of intellectual capability in the near future.
-There are many a philosophical debate about the consequences of such a transition.
-In my view, while the transition is certain, the consequences of it are still up to us.
-If machine intelligence is fostered with the same care we give fostering our own children, it is likely that the transition will bring humans together and be an incredibly beneficial event to all.
+Right now, there are already machines which posses the raw power of a human, like ONRL&#39;s Titan.
+Barring catastrophe, it seems a foregone conclusion that the human brain will not be the peak of intellectual capability in the near future.
+And while the transition is certain, the consequences of it are still up to us.
+If machine intelligence is fostered with the same care we give fostering our own children, it is likely that the transition will bring humans much much closer together and be an incredibly beneficial event.
 
 
 #### Eyes
 
-_A project to capture video stream that&#39;s roughly equivalent to a human&#39;s._
+_A project to capture a video stream that&#39;s roughly equivalent to a human&#39;s._
 
-Two 5deg by 5deg cameras with [x]ppi resolution at the center fading to 30deg by 30deg at [y] resolution 60deg by 60deg at [z]ppi
+Two 5deg by 5deg cameras with [x]ppi resolution at the center
+fading to 30deg by 30deg at [y] resolution
+60deg by 60deg at [z]ppi
 resolution at the edges refreshing at 60fps into h.264 stream.
 
-First project - Open source screen record on Mac.
+
+    960px       |  960px
+    =---=       |  =---=
+    | . | 960px |  | . | 960px
+    =---=       |  =---=
+
+
+Phase one - Open source screen record on Mac.
 
 Competition
 - Stackexchange

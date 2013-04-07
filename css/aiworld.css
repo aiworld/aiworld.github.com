@@ -5,4 +5,5 @@ body {background: #eeecf2; background-repeat: no-repeat; background-color: #eeec
 #aiworld a {color: black;}
 #aiworld a:hover {text-decoration: none;}
 hr {border-top-color: #ddd; border-bottom-color: #fafafa;}
+.sep {border-left: solid 1px #fff;}
 /*.space-for-brain {}*/

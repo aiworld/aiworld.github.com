@@ -48,3 +48,5 @@ I will check for memory leaks as well.
 
 _Why the mac? - Because it&#39;s the best operating system and the one I happen to use. Also, the open source screen recording options
 for the mac are particularly poor and present a nice opportunity for aiworld to contribute to outside projects almost immediately._
+
+All code will be open sourced under [WTFPL](https://en.wikipedia.org/wiki/WTFPL).

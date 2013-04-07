@@ -37,13 +37,13 @@ Capture a `960px` by `960px` region at `60fps` and stream in into a file or stan
 
 Most performant implementations win the following:
 
-- aiworld.io ranking
 - $200
+- aiworld.io ranking
 - aiworld t-shirt
 
 Best performance will be subjectively determined by me.
-Ideally, this would run at 30fps in scenes with lots of action and 60fps in slow moving scenes.
-and take under 10% of a new Retina MacBook&#39;s resources (16GB - 8 Core i7).
+Ideally, this would run at 30fps in scenes with lots of action and 60fps in slow moving scenes
+while taking under 10% of a new Retina MacBook&#39;s resources (16GB - 8 Core i7).
 I will check for memory leaks as well.
 
 _Why the mac? - Because it&#39;s the best operating system and the one I happen to use. Also, the open source screen recording options

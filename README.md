@@ -1,1 +1,1 @@
-View @ http://aiworld.github.com
+View @ http://aiworld.io

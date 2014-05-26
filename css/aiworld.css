@@ -438,7 +438,7 @@ html, body {background-color: #000; color: #eee;}
 }
 
 button:hover, button:focus, .button:hover, .button:focus {
-  background-color: hsl(240, 2%, 70%);
+  background-color: hsl(240, 2%, 80%);
   color: hsl(220, 100%, 17%);
 }
 

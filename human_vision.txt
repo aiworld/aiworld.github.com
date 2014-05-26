@@ -1,6 +1,0 @@
-
-
-Two 5deg by 5deg cameras with [x]ppi resolution at the center
-fading to 30deg by 30deg at [y] resolution
-60deg by 60deg at [z]ppi
-resolution at the edges refreshing at 60fps into h.264 stream.

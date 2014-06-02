@@ -408,7 +408,7 @@ optgroup {
   font-weight: bold;
 }
 
-/* Tables
+/* Tablesrename_column :table, :old_column, :new_column
    ========================================================================== */
 
 /**
@@ -426,25 +426,31 @@ th {
 }
 
 
-html, body {background-color: #000; color: #eee;}
+html, body {background-color: #000; color: #ccc }
 
 .button {
-  color: hsl(208, 6%, 90%);
+  color: #e4e6e7;
   width: 100%;
-  background: hsl(0, 0%, 27.5%);
+  background: #464646;
   padding: 8px 0;
-  font-size: 16px;
-  width: 100%;
+  font-size: 18px;
 }
 
 button:hover, button:focus, .button:hover, .button:focus {
-  background-color: hsl(240, 2%, 80%);
-  color: hsl(220, 100%, 17%);
+  background-color: #cbcbcd;
+  color: #001d57;
 }
 
-input[type=email] {margin: 14px 0;}
+input[type=email] {
+  margin: 14px 0;
+  font-size: 1.24rem;
+  /*font-weight: 100;*/
+}
 
-
+p {
+  /*font-weight: 100;*/
+  font-size: 18px;
+}
 
 /*.xycenter {*/
   /*position: absolute;*/

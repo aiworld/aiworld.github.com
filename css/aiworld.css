@@ -426,7 +426,11 @@ th {
 }
 
 
-html, body {background-color: #000; color: #ccc }
+html, body {
+  background-color: #000;
+  color: #ccc;
+
+}
 
 .button {
   color: #e4e6e7;
@@ -450,6 +454,16 @@ input[type=email] {
 p {
   /*font-weight: 100;*/
   font-size: 18px;
+}
+
+::selection {
+  background: #ccccff;
+  color: #ffffff;
+}
+
+::-moz-selection {
+  background: hsl(233, 76%, 85%);
+  color: #44a;
 }
 
 /*.xycenter {*/

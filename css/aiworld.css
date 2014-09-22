@@ -427,7 +427,7 @@ th {
 
 
 html, body {
-  background-color: #171717;
+  background-color: #000;
   color: #ccc;
   font-family: 'Myriad Set Pro', 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
   text-rendering: optimizeLegibility;
@@ -470,40 +470,13 @@ p {
   color: #44a;
 }
 
-.xcenter {
-  position: absolute;
-  left: 50%;
-  /*top: 50%;*/
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
+/*.xycenter {*/
+/*position: absolute;*/
+/*left: 50%;*/
+/*top: 50%;*/
+/*transform: translate(-50%, -50%);*/
+/*-webkit-transform: translate(-50%, -50%);*/
+/*-o-transform: translate(-50%, -50%);*/
+/*-ms-transform: translate(-50%, -50%);*/
+/*}*/
 /*p {line-height: 1.375em;}*/
-
-h1 {
-  margin: 0.55em auto;
-  width: 7em;
-  border: solid 1px #aaa;
-
-  /*position: absolute;*/
-  /*left: 50%;*/
-  /*top: 50%;*/
-  /*transform: translate(-50%, -50%);*/
-  /*-webkit-transform: translate(-50%, -50%);*/
-  /*-o-transform: translate(-50%, -50%);*/
-  /*-ms-transform: translate(-50%, -50%);*/
-}
-
-h2 {color: #999;}
-
-.tagline {
-  font-size: 20px;
-  color: #DDD;
-  margin-bottom: 15px;
-}
-
-input[type=email] {
-  font-family: "Helvetica Neue",sans-serif;
-  font-size: 17px;
-}

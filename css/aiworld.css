@@ -427,9 +427,13 @@ th {
 
 
 html, body {
-  background-color: #000;
+  background-color: #171717;
   color: #ccc;
-
+  font-family: 'Myriad Set Pro', 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings:"liga", "kern";
 }
 
 .button {
@@ -476,3 +480,23 @@ p {
   /*-ms-transform: translate(-50%, -50%);*/
 /*}*/
 /*p {line-height: 1.375em;}*/
+
+h1 {
+  margin-bottom: 0.55em;
+  margin-left: 146px;
+  border: solid 1px #aaa;
+  margin-right: 169px;
+}
+
+h2 {color: #999;}
+
+.tagline {
+  font-size: 20px;
+  color: #DDD;
+  margin-bottom: 15px;
+}
+
+input[type=email] {
+  font-family: "Helvetica Neue",sans-serif;
+  font-size: 17px;
+}

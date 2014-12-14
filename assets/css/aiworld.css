@@ -1,0 +1,22 @@
+body {font-family: 'Open Sans', sans-serif; background: #eee;}
+.bs-docs-header h1, p {text-align: center; margin-right: 0;}
+.bs-docs-header h1 {font-size: 4.6em}
+p {font-size: 0.79em;}
+.bs-docs-header h1, #content {
+    background: #fffff8;
+    color: #383838;
+    text-shadow: 0;
+}
+.bs-docs-header {
+    padding-top: 100px;
+    border-bottom: solid 1px #bbb;
+    padding-bottom: 160px;
+    margin-bottom: 0;
+}
+.body {
+    background: url('../images/background-blurred.jpg');
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    opacity: 0.4;
+}

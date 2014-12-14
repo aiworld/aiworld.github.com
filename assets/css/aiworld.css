@@ -16,7 +16,7 @@ p {font-size: 0.79em;}
 .body {
     background: url('../images/background-blurred.jpg');
     background-size: cover;
-    height: 500px;
+    height: 1000px;
     width: 100%;
     opacity: 0.4;
 }

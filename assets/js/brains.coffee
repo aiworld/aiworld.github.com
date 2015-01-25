@@ -1,7 +1,7 @@
 #'use strict'
 svg = d3.select('.brains')
 n = 339
-length = 22 # 22 for staggered
+length = 8 # 22 for staggered
 spacing = length * 1.55
 
 #width  = $svg.width()

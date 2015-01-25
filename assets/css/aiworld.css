@@ -1,11 +1,12 @@
-body {font-family: 'Open Sans', sans-serif; background: #eee;}
-.bs-docs-header h1, p {text-align: center; margin-right: 0;}
+body {font-family: 'Open Sans', sans-serif; font-weight: 300}
+.bs-docs-header h1, .bs-docs-header p {text-align: center; margin-right: 0;}
 .bs-docs-header h1 {font-size: 4.6em}
-p {font-size: 0.79em;}
+.bs-docs-header p {font-size: 0.79em;}
 .bs-docs-header h1, #content {
     background: #fffff8;
     color: #383838;
     text-shadow: 0;
+    font-weight: 300;
 }
 .bs-docs-header {
     padding-top: 100px;
@@ -13,10 +14,48 @@ p {font-size: 0.79em;}
     padding-bottom: 160px;
     margin-bottom: 0;
 }
-.body {
+.blurred-body {
     background: url('../images/background-blurred.jpg');
     background-size: cover;
     height: 1000px;
     width: 100%;
     opacity: 0.4;
 }
+
+.why-body p, blockquote, .footnotes, .call-to-action {
+    font-size: 25px;
+    font-family: serif;
+    max-width: 741px;
+}
+.why-body {background: #fff;}
+blockquote {font-style: italic;}
+.stacked {
+    height: 500px;
+    width: 100%;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+.brains {height: 618px; width: 100%;}
+h2 {font-weight: 300;}
+.footnote {
+    font-size: 16px;
+    color: #000;
+    display: none;
+    line-height: 18px;
+    font-family: serif;
+}
+.footnotes {font-size: 17px;}
+.call-to-action {font-size: 25px; font-family: serif;}
+.qtip-default {
+    background-color: #fff !important;
+    border-color: #000 !important;
+}
+.sig {padding-top: 25px; padding-bottom: 75px;}
+a.back {
+    font-size: 14px;
+    color: #47a;
+    padding-left: 1px;
+    white-space: nowrap;;
+}
+.highlighted {background-color: #ff0;}
+.navbar {border-bottom: solid 1px #e7e7e7;}

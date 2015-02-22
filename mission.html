@@ -62,35 +62,57 @@
 <div class="container bs-docs-container why-body">
     <h1>Why AiWorld?</h1>
     <p>
-        Artificial intelligence is on the horizon
-        and will do more to change life on earth than
-        anything else in our history.
-        Intelligence greater than our own
-        has the power to solve our most difficult problems,
-        but it could become our greatest threat if we don't plan for it
-        appropriately.
-        AiWorld's mission is to help alleviate this threat
-        and realize the monumental benefit AI can offer us as
-        in the coming years.
+        Artificial intelligence is the single most important pursuit
+        our civilization has ever undertaken.
+        An intelligence creating one greater than itself is
+        the most transformational process we know of
+        and yet one only achieved by evolution
+        over millions of years.
+        Computers are only now starting to understand us, and we to
+        understand them. The possibilities are endless, and the partnership
+        is flourishing, but many also worry about the potential for
+        increasingly
+        autonomous machines to be become a major threat and
+        act against our best interests.
+        AiWorlds's goal is to give society transparency and influence
+        into the behavior of AI in order to align what are
+        often considered disparate goals:
+        the safety and sophistication of AI.
     </p>
-    <h2>The Countdown to AI</h2>
+    <h2>The State of AI</h2>
+    <p>
+        Since the advent of computing, we have both
+        underestimated[Ai Winter] <i>and</i> overestimated[Dartmouth]
+        computers' potential to do things only humans were capable of before.
+        [backgammon], [i j good ultraintelligence]
+        The question of how close we are to actually developing intelligence
+        that can do <i>everything</i> a human can do,
+        which for the purposes
+        of this document will be simply referred to as AI often called AGI,
+        is one I will attempt to survey by taking a look
+        at both the fundamental elements necessary for AI
+        as well as previous attempts at providing a timeline for the
+        development AI.
+    </p>
     <p>
         <span class="text tianhe-brain">
-            So how close are we to actually developing AI?
-            By one measure,
-            FLOPS or floating-point-operations-per-second,
-            the world's most powerful computer, Tianhe-2,
-            is already 339 times more powerful than the human brain.
+            One fundamental measure of raw computation is floating point
+            operations per second or FLOPS.
+            By this measure, the world's most powerful computer, Tianhe-2,
+            is already 339 times more powerful than synapse based
+            estimates on the power of the human brain.
         </span>
         <span class="footnote tianhe-brain">
             Human brains have ~500 terraconnections with 2% active at a time,
             firing at ~100hz and ~1 byte per connection yielding ~100e12
             FLOPS compared to Tianhe-2's 33.89e15 FLOPS.
+            [Some research suggests one neuron behaves like an entire
+            neural net.]
         </span>
         <span class="text oh-yeah-gpu"><span class="text enceph">
-            This is surprising to most,
-            since a new laptop in 2015 is 33,000 times
-            less powerful and has only 1% of
+            This is surprising to many,
+            as a new laptop in 2015 is 33,000 times
+            less powerful and has just 1% of
             the operations per second of the average reptile.
         </span></span>
         <span class="footnote oh-yeah-gpu">
@@ -105,13 +127,26 @@
             <a href="http://en.wikipedia.org/wiki/Encephalization_quotient"
             >Encephalization Quotient - Wikipedia</a>
         </span>
-        But while there's much more to our brain than operations per second,
-        it's clear that the opportunity
-        to create human level AI is becoming more tangible,
-        especially to groups with access to the world's most powerful computers
-        like Tianhe-2.
-        Larry Page puts it this way:
-    </p>
+        Certainly there's much more to our brain than operations per second,
+        but it's important to note that this level of computation
+        has only recently come online become accessible any group in the last 10
+        years, in 2005.
+        Also, the fundamental characteristic of information technology
+        to improve by factors proportional to its current size
+        means that we will very likely see another hundred fold increase
+        in next 10 years. Previous incorrect predictions about
+        AI involved overestimating the hardware capability [good, kurzweil, vinge]
+        that would be available. Today's estimates are less about hardware and
+        more about the other elements, namely,
+        breakthroughs in machine learning,
+        systems software to scale these techniques within reasonable budgets,
+        and accumulation of appropriate datasets
+        for training.
+   </p>
+   <p>
+
+      Larry Page puts it this way:
+
     <blockquote class="text l-wise">
             There's a 5% chance [AI] will happen every year...mostly based on
             whether anybody's working on it.
@@ -154,7 +189,7 @@
             And the same hardware in 2050 will be just $1M -
             giving most businesses, all governments,
             and millions of individuals access
-            to said mind blowing computational power.
+            to said computational power.
         </span></span>
         <span class="footnote time-to-semi-cheap">
             Based of Moore's law -
@@ -172,9 +207,9 @@
         </span>
     </p>
     <p>
-        Another way to approximate the timeframe in which AI
-        will be developed is to base it off a
-        fully functioning artificial neural net today.
+        Another way to survey the timeframe in which AI
+        will be developed is to look at tasks which humans are naturally
+        good at, and compare them with machines.
         <span class="text big-ol-net">
             For example, the world's largest neural net has
             hundreds of billions of connections
@@ -193,8 +228,17 @@
             by 2050.
             However, current connectivity growth is much higher than that,
             increasing by an order of magnitude almost every year,
-            and if that amazing pace keeps up, we could see human sized nets by
-            2020.
+            and if that amazing pace keeps up, we could see human numbers of connections by
+            2020. While connections in these nets are vastly different than
+            our own in pattern, substrate, signaling and more, we do
+            see similarity in the patterns understood by these nets and
+            our own brains [Ng]. However, the number of training examples required
+            to learn these patterns [tennenbaum-mit hinton-seconds] is several orders of
+            magnitude beyond humans. Also relating the function
+            (1000 categories with 100B connections vs the billion categories
+            we do with 140E10 1E8 connections / category vs 1E3 connections / category for us roughly)
+            we do much more per connection. This only counts recognizing (classification),
+            not locating (detection), movement, etc...
         </span></span></span>
         <span class="footnote conn-growth">
             Doubling time in neural net size is currently much less than
@@ -318,21 +362,7 @@
             referring to narrow AI) is incredibly fast. Unless
             you have direct exposure to groups like Deepmind, you have no idea
             how fast - it is growing at a pace
-            close to exponential. The risk of something seriously dangerous
-            happening is in the five year timeframe, 10
-            years at most. Please note that I am normally super pro technology,
-            and have never raised this issue until
-            recent months. This is not a case of crying wolf about something I
-            don't understand.
-        </p>
-
-        <p>
-            I am not alone in thinking we should be worried. The leading AI
-            companies have taken great steps to
-            ensure safety. They recognize the danger, but believe that they can
-            shape and control the digital
-            superintelligences and prevent bad ones from escaping into the
-            Internet. That remains to be seen...
+            close to exponential.
         </p>
         <span class="footnote musk">
             Elon Musk's
@@ -343,12 +373,17 @@
         </span>
     </blockquote>
     <p>
+        While DeepMind is doing work that is exponentially getting better
+        [compare DQN to newest DQN, HyperNEAT, etc... UTC hybrids],
+        they are still operating within Atari and instead of scaling,
+        building the fundamental pieces of intelligence (planning, prediction,
+        action, memory) required for machines that think like us.
+    </p>
+    <p>
         <span class="text luddite">
-            Given the imminence of such metamorphic change,
-            it seems that we should be employing everything we know,
-            allocating every possible resource, and
-            focusing our brightest minds on making the transition to beyond
-            human AI go as well as possible.
+            Given the likelihood of such change happening relatively soon,
+            it seems like we should be paying a little more attention to it
+            and devoting more resources to it than we are currently.
         </span>
         <span class="footnote luddite">
             Also, preventing the transition is unlikely since those
@@ -360,27 +395,11 @@
             for unchanging resources. Avoiding such stagnation without AI
             may be possible as a spacefaring civilization,
             also avoiding problems like global warming,
-            but this again is highly unlikely due to the massive power and draw
+            but this again is highly unlikely due to the competitive advantage
             of AI.
         </span>
         As Stephan Hawking said:
     </p>
-    <blockquote class="text futureoflife">
-        The potential benefits are huge; everything that civilisation has to
-        offer is a product of human intelligence; we cannot predict what we
-        might achieve when this intelligence is magnified by the tools that AI
-        may provide, but the eradication of war, disease, and poverty would be
-        high on anyone's list. Success in creating AI would be the biggest event
-        in human history.
-        Unfortunately, it might also be the last,
-        unless we learn how to avoid the risks.
-        <span class="footnote futureoflife">
-            Stephen Hawking, Stuart Russel, Max Tegmark, Frank Wilcek -
-            <a href="http://www.independent.co.uk/news/science/stephen-hawking-transcendence-looks-at-the-implications-of-artificial-intelligence--but-are-we-taking-ai-seriously-enough-9313474.html">
-                Stephen Hawking: 'Transcendence looks at the implications of artificial intelligence - but are we taking AI seriously enough?'
-            </a> - The Independent
-        </span>
-    </blockquote>
     <h2>How</h2>
     <p>
         <span class="text cev">
@@ -428,7 +447,7 @@
             to have a platform where these teams can cooperate,
             breakthroughs can be disseminated,
             and AI's can be compared using benchmarks
-            aligned towards the goal of beneficial AI.
+            aligned towards the goal of creating beneficial AI.
         </span>
         <span class="footnote infra">
             AI that moves quickly from breakthroughs to applications
@@ -436,9 +455,9 @@
             AiWorld will attempt to facilitate this by allowing small teams
             to showcase their results on practically applicable datasets.
         </span>
-        Creating datasets and training AI is one of those laborious
-        tasks that small teams of experts have neither the time
-        nor the interest to pursue.
+        Creating datasets and training AI is one of those laborious, yet
+        extremely critical [see imagenet crowdsourcing]
+        tasks that small teams of experts have precious little time to pursue.
         However, providing the 'nurture' side
         of the nature / nurture equation is a vital role
         that AiWorld seeks to facilitate by paying anyone who can play a
@@ -459,7 +478,7 @@
             Without emotions, machines will be far less adept at
             learning from the vast knowledge base we have created
             and researchers will be forced to create artificial ways
-            for machines to understand humans.
+            for machines to understand humans. [run this by vivian chu georgia tech]
             One can draw a relation to the symbol grounding problem
         </span>
         where it is theorized that words are best understood via a grounding
@@ -518,7 +537,7 @@
     </p>
     <p>
         Take the following quote from Yann Lecun, one of the world's preeminent
-        AI researchers:
+        AI scientists:
     </p>
     <blockquote class="text yann">
         I think emotions are an integral part of intelligence.

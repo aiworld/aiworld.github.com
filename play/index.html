@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ai world</title>
+    <title>ai world play</title>
 
     <!-- Bootstrap -->
-    <link href="vendor/css/bootstrap.min.css" rel="stylesheet">
-    <style>body{background: #eee;}</style>
-    <link href="vendor/css/docs.css" rel="stylesheet">
-    <link href="assets/css/aiworld.css" rel="stylesheet">
+    <link href="../vendor/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../vendor/css/docs.css" rel="stylesheet">
+    <link href="../assets/css/aiworld.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../vendor/jquery.qtip.custom/jquery.qtip.min.css" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,39 +21,34 @@
     <![endif]-->
 </head>
 <body>
-
 <!-- Docs page layout -->
-<div class="bs-docs-header" id="content">
-    <div class="container home">
-        <h1>ai world</h1>
-        <p>crowdsourced training for artificial intelligence</p>
-        <div class="row home-btns">
-            <div class="col-xs-6 col-md-4">
-                <a href="play" class="thumbnail">
-                    Play
-                </a>
-            </div>
-            <div class="col-xs-6 col-md-4">
-                <a href="data" class="thumbnail">
-                    Data
-                </a>
-            </div>
-            <div class="col-xs-6 col-md-4">
-                <a href="https://github.com/aiworld" class="thumbnail">
-                    Code
-                </a>
-            </div>
-        </div>
+<header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="../index.html" class="navbar-brand">ai world</a>
     </div>
-</div>
-<div class="container bs-docs-container blurred-body">
+  </div>
+</header>
+
+<div class="container bs-docs-container crowd-sig">
+    <h2>Help create AI by teaching it in real-time</h2>
+    <ul><li><a href="space-invaders.html">Launch the Space Invaders trainer</a>
 </div>
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="vendor/js/bootstrap.min.js"></script>
-<script src="vendor/js/docs.js"></script>
+<script src="../vendor/js/bootstrap.min.js"></script>
+<script src="../vendor/js/docs.js"></script>
+<script src="../vendor/js/d3.min.js"></script>
+<script src="../vendor/jquery.qtip.custom/jquery.qtip.min.js"></script>
+<script src="../assets/js/main.js"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="vendor/js/ie10-viewport-bug-workaround.js"></script>
+<script src="../vendor/js/ie10-viewport-bug-workaround.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

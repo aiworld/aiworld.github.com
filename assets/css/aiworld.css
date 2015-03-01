@@ -11,7 +11,7 @@ body {font-family: 'Open Sans', sans-serif; font-weight: 300}
 .bs-docs-header {
     padding-top: 100px;
     border-bottom: solid 1px #bbb;
-    padding-bottom: 160px;
+    padding-bottom: 55px;
     margin-bottom: 0;
 }
 .blurred-body {
@@ -55,7 +55,22 @@ a.back {
     font-size: 14px;
     color: #47a;
     padding-left: 1px;
-    white-space: nowrap;;
+    white-space: nowrap;
 }
 .highlighted {background-color: #ff0;}
 .navbar {border-bottom: solid 1px #e7e7e7;}
+.crowd-sig {font-size: 14px; font-weight: 400;}
+.home {text-align: center;}
+.home-btns {
+    text-align: center;
+    margin: 30px auto;
+    width: 18em;
+}
+.home-btns .thumbnail {
+    height: 1.81em;
+    background-color: #f8f8f1;
+    color: #000;
+    font-weight: 300;
+    font-size: 0.72em;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .2);
+}
